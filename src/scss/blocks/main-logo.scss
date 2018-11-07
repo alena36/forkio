@@ -1,0 +1,17 @@
+.main-logo {
+  font-family: $font-family--Montserrat;
+  color: #333333;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 0.667;
+  display: flex;
+  align-items: center;
+
+  &--violet {
+    color: #8d81ac;
+  }
+
+  &__img {
+    margin-right: 1rem;
+  }
+}

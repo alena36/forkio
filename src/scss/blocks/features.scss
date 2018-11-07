@@ -1,0 +1,21 @@
+.features {
+  background-color: #f4f4f4;
+  padding-top: 3.25rem;
+  padding-bottom: 36rem;
+
+  &__title {
+    font-family: $font-family--Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $violet-light;
+    margin-bottom: 3.875rem;
+  }
+
+  &__image {
+    display: block;
+    width: 200%;
+    position: absolute;
+    left: 5%;
+    max-width: initial;
+  }
+}

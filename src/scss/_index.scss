@@ -1,0 +1,36 @@
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 451px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .container {
+    width: 1250px;
+  }
+}
+
+.button {
+  font-family: $font-family--Montserrat;
+  font-size: 1.06rem;
+  font-weight: 700;
+  color: $white;
+  background-color: $violet-light;
+  padding: 1rem 2.3rem;
+  border-radius: 3rem;
+  align-items: center;
+}

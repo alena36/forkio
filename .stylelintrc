@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "stylelint-config-recommended-scss"
+  ],
+  "rules": {
+    "selector-max-specificity": "0,2,0",
+    "declaration-no-important": true
+  }
+}

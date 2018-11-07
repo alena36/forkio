@@ -1,0 +1,27 @@
+{
+  "name": "forkio",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "css-lint": "stylelint --fix --syntax scss \"src/scss/**/*.scss\""
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-image": "^4.3.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "prettier": "1.14.3",
+    "stylelint": "^9.7.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-scss": "^3.3.2"
+  }
+}

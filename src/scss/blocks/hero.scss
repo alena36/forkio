@@ -1,0 +1,31 @@
+.hero {
+  background-image: url("../../images/hero-bg.jpg");
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 5.75rem;
+  padding-bottom: 30.3rem;
+
+  &__title {
+    font-family: $font-family--Montserrat;
+    font-size: 5.125rem;
+    font-weight: 700;
+    color: $white;
+    margin-bottom: 1.5rem;
+  }
+
+  &__subtitle {
+    font-family: $font-family--Montserrat;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: $violet-light;
+    margin-bottom: 1.5rem;
+  }
+
+  &__text {
+    font-family: $font-family--Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #848e97;
+    margin-bottom: 1.5rem;
+  }
+}

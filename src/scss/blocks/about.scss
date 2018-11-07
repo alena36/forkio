@@ -1,0 +1,37 @@
+.about {
+  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3.75rem;
+
+  &__link {
+    position: absolute;
+    bottom: 23rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+  }
+
+  &__title {
+    font-family: $font-family--Montserrat;
+    font-size: 3rem;
+    font-weight: 700;
+    color: $violet-dark;
+    margin-bottom: 3.44rem;
+  }
+
+  &__description {
+    font-family: $font-family--Montserrat;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #848e97;
+    margin-bottom: 3.8rem;
+  }
+
+  &__text {
+    font-family: $font-family--Source;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5b5b5b;
+    margin-bottom: 2.375rem;
+  }
+}

@@ -1,0 +1,33 @@
+.features-list {
+  flex-direction: column;
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: $font-family--Montserrat;
+    font-size: 1rem;
+    color: #323232;
+    margin-bottom: 1.25rem;
+  }
+
+  &__text-wrapper {
+    width: 70%;
+    text-align: left;
+  }
+
+  &__icon-wrapper {
+    width: 30%;
+    margin-right: 1.8rem;
+  }
+
+  &__text {
+    font-family: $font-family--Source;
+    font-size: 0.875rem;
+    color: #848e97;
+    margin-bottom: 3rem;
+  }
+}
