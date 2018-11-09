@@ -1,22 +1,25 @@
 .about {
   position: relative;
   padding-top: 3rem;
-  padding-bottom: 3.75rem;
+  padding-bottom: 4.44rem;
 
   &__link {
     position: absolute;
-    bottom: 23rem;
+    top: -1.75rem;
     left: 50%;
     transform: translateX(-50%);
-    width: 70%;
   }
 
   &__title {
     font-family: $font-family--Montserrat;
-    font-size: 3rem;
+    font-size: 3.375rem;
     font-weight: 700;
     color: $violet-dark;
     margin-bottom: 3.44rem;
+
+    @media screen and (min-width: 768px) {
+      color: #efeef1;
+    }
   }
 
   &__description {

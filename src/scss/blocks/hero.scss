@@ -2,15 +2,19 @@
   background-image: url("../../images/hero-bg.jpg");
   background-size: cover;
   background-position: 50%;
-  padding-top: 5.75rem;
+  padding-top: 6.94rem;
   padding-bottom: 30.3rem;
+
+  @media screen and (min-width: 768px) {
+    background-image: url("../../images/hero-bg--large.jpg");
+  }
 
   &__title {
     font-family: $font-family--Montserrat;
     font-size: 5.125rem;
     font-weight: 700;
     color: $white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 
   &__subtitle {
@@ -18,7 +22,7 @@
     font-size: 1.5rem;
     font-weight: 400;
     color: $violet-light;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 
   &__text {
@@ -26,6 +30,5 @@
     font-size: 1rem;
     font-weight: 400;
     color: #848e97;
-    margin-bottom: 1.5rem;
   }
 }

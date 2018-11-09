@@ -1,8 +1,16 @@
 .header {
+  position: relative;
   padding-top: 1.81rem;
-  padding-bottom: 1.69rem;
+  padding-bottom: 1.81rem;
+  padding-left: 8rem;
+  padding-right: 7.5rem;
 
   &__navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__navigation-container{
     display: flex;
     justify-content: space-between;
   }
@@ -19,6 +27,7 @@
 
   &__sandwich {
     display: block;
+    background-color: transparent;
 
     @media (min-width: 960px) {
       display: none;

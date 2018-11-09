@@ -1,7 +1,7 @@
 .features {
   background-color: #f4f4f4;
-  padding-top: 3.25rem;
-  padding-bottom: 36rem;
+  padding-top: 5.43rem;
+  padding-bottom: 4.31rem;
 
   &__title {
     font-family: $font-family--Montserrat;
@@ -9,6 +9,28 @@
     font-weight: 700;
     color: $violet-light;
     margin-bottom: 3.875rem;
+
+    &--first {
+      @media screen and (min-width: 767px) {
+        display: none;
+      }
+    }
+
+    &--second {
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+    }
+
+  }
+
+  &__wrapper {
+
+    @media screen and (min-width: 767px) {
+      display:flex;
+      justify-content: space-between;
+    }
+
   }
 
   &__image {
