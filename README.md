@@ -9,3 +9,7 @@ To start working on the project use `yarn dev` command.
 ---
 
 For minifying and optimizations use `yarn build` command.
+
+---
+
+Demo page: https://alena36.github.io/forkio/

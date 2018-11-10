@@ -34,9 +34,15 @@
 
   &__image {
     display: block;
-    width: 200%;
+    width: 50%;
     position: absolute;
     left: 5%;
     max-width: initial;
+  }
+
+  &__image-wrapper {
+    top: 0;
+    position: absolute;
+    width: 100%;
   }
 }
