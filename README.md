@@ -12,4 +12,3 @@ For minifying and optimizations use `yarn build` command.
 
 ---
 
-Demo page: https://alena36.github.io/forkio/
